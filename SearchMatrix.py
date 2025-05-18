@@ -1,3 +1,5 @@
+# Time Complexity: O(log(m*n))
+# Space Complexity: O(1)
 class Solution:
     def searchMatrix(self, matrix, target: int) -> bool:
         if matrix == None or len(matrix) == 0:

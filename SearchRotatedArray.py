@@ -1,3 +1,5 @@
+# Time Complexity: O(log n)
+# Space Complexity: O(1)
 class Solution:
     def search(self, nums, target: int) -> int:
         low = 0
